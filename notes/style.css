@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 4%;
+    padding-left: 7%;
+    background: linear-gradient(135deg,aqua, red);
+    color: #fff;
+}
+
+h1 img{
+    width: 50px;
+}
+
+button img{
+    width: 15px;
+}
+
+button{
+    cursor: pointer;
+    padding: 5px;
+    background: linear-gradient(#9418fd, #571094);
+    border-radius:10px;
+    padding: 4px 10px;
+    border: none;
+}
+
+button:active{
+    scale: 0.9;
+}
+
+.notes-container .input-box{
+    position: relative;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: #fff;
+    color: #333;
+    margin: 14px;
+    padding: 10px 7px;
+    border-radius: 5px;
+    font-size: 1.5vw;
+}
+
+.notes-container .input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.notes-container .input-box img:active{
+    scale: 0.8;
+   
+}
+
